@@ -3,7 +3,9 @@
 ### 1.nacos官网<https://nacos.io/zh-cn/docs/quick-start-spring-boot.html>   
 ### 1.nacos部署  
 #### 1.1拉取nacos镜像并启动  
+````
 docker pull nacos/nacos-server  
+````
 ![Image](https://github.com/lxg6370592/lxg_study_cloud/blob/main/Image/2022051911082451.png?raw=true)  
 #### 1.2启动nacos命令  
 ````
