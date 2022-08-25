@@ -4,13 +4,13 @@
 ###1.nacos部署  
 ####1.1拉取nacos镜像并启动  
 docker pull nacos/nacos-server  
-![1](https://img.jbzj.com/file_images/article/202205/2022051911082451.png)  
+![Image](https://github.com/lxg6370592/lxg_study_cloud/blob/main/Image/2022051911082451.png?raw=true)  
 ####1.2启动nacos命令  
 ````
 docker run -d --name nacos -p 8848:8848 -e PREFER_HOST_MODE=hostname -e MODE=standalone nacos/nacos-server
 ````
 访问url：http://:8848/nacos 账号:nacos 密码:nacos  
-![2](https://img.jbzj.com/file_images/article/202205/2022051911082452.png)  
+![Image](https://github.com/lxg6370592/lxg_study_cloud/blob/main/Image/2022051911082452.png?raw=true)  
 ####1.3开启mysql配置  
 ````
 #1 查看docker容器，nacos启动成功
