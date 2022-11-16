@@ -20,7 +20,7 @@ firewall-cmd --zone=public --query-port=1883/tcp
 ````
 firewall-cmd --zone=public --add-port=1883/tcp --permanent
 ````
-#### 4重新加载防火墙，这里不是重启防火墙  
+#### 5重新加载防火墙，这里不是重启防火墙  
 ````
 firewall-cmd --reload
 ````
